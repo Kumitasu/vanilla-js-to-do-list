@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right top, #2fea9c, #5edc9e, #79cea0, #8dbfa2, #9cb0a4);    min-height:100vh;
+    color:white;
+    
+}
+header{
+    min-height:30vh;
+    font-size: 1.5rem;
+}
+header,
+form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+form input, form button{
+    padding:0.5rem;
+    font-size:1.2rem;
+    border:none;
+    background:white;
+}
+form button{
+    color:#0090e9;
+    cursor:pointer;
+    transition:all 0.3s;
+}
+form button:hover {
+    color:white;
+    background:#0090e9;
+    
+}
