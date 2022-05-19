@@ -3,6 +3,7 @@ const todoButton = document.querySelector('.todo-button');
 const todoList = document.querySelector('.todo-list');
 
 todoButton.addEventListener('click', addTodo);
+todoList.addEventListener('click', deleteCheck);
 
 function addTodo(event) {
     // Preventing from submitting
@@ -30,4 +31,12 @@ function addTodo(event) {
     //Clear Input
     todoInput.value = "";
 
+}
+
+function deleteCheck(e){
+    const item = e.target.checked;
+    //Delete TodoDiv
+    if(item.classList[0] === "delete-button"){
+        to
+    }
 }
